@@ -1,0 +1,44 @@
+{
+  "configurations": [
+    {
+      "type": "swift",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder:create_db}",
+      "name": "Debug QueryTool",
+      "target": "QueryTool",
+      "configuration": "debug",
+      "preLaunchTask": "swift: Build Debug QueryTool"
+    },
+    {
+      "type": "swift",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder:create_db}",
+      "name": "Release QueryTool",
+      "target": "QueryTool",
+      "configuration": "release",
+      "preLaunchTask": "swift: Build Release QueryTool"
+    },
+    {
+      "type": "swift",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder:create_db}",
+      "name": "Debug CreateDbTool",
+      "target": "CreateDbTool",
+      "configuration": "debug",
+      "preLaunchTask": "swift: Build Debug CreateDbTool"
+    },
+    {
+      "type": "swift",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder:create_db}",
+      "name": "Release CreateDbTool",
+      "target": "CreateDbTool",
+      "configuration": "release",
+      "preLaunchTask": "swift: Build Release CreateDbTool"
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "configurations": [
+    {
+      "type": "swift",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder:fox-skill}/fox-skill/tools",
+      "name": "Debug CreateDBTool (fox-skill/tools)",
+      "target": "CreateDBTool",
+      "configuration": "debug",
+      "preLaunchTask": "swift: Build Debug CreateDBTool (fox-skill/tools)"
+    },
+    {
+      "type": "swift",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder:fox-skill}/fox-skill/tools",
+      "name": "Release CreateDBTool (fox-skill/tools)",
+      "target": "CreateDBTool",
+      "configuration": "release",
+      "preLaunchTask": "swift: Build Release CreateDBTool (fox-skill/tools)"
+    },
+    {
+      "type": "swift",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder:fox-skill}/fox-skill/tools",
+      "name": "Debug QueryTool (fox-skill/tools)",
+      "target": "QueryTool",
+      "configuration": "debug",
+      "preLaunchTask": "swift: Build Debug QueryTool (fox-skill/tools)"
+    },
+    {
+      "type": "swift",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder:fox-skill}/fox-skill/tools",
+      "name": "Release QueryTool (fox-skill/tools)",
+      "target": "QueryTool",
+      "configuration": "release",
+      "preLaunchTask": "swift: Build Release QueryTool (fox-skill/tools)"
+    },
+    {
+      "type": "swift",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder:fox-skill}/fox-skill/tools/create_db",
+      "name": "Debug CreateDbTool (fox-skill/tools/create_db)",
+      "target": "CreateDbTool",
+      "configuration": "debug",
+      "preLaunchTask": "swift: Build Debug CreateDbTool (fox-skill/tools/create_db)"
+    },
+    {
+      "type": "swift",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder:fox-skill}/fox-skill/tools/create_db",
+      "name": "Release CreateDbTool (fox-skill/tools/create_db)",
+      "target": "CreateDbTool",
+      "configuration": "release",
+      "preLaunchTask": "swift: Build Release CreateDbTool (fox-skill/tools/create_db)"
+    },
+    {
+      "type": "swift",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder:fox-skill}/fox-skill/tools/query",
+      "name": "Debug QueryTool (fox-skill/tools/query)",
+      "target": "QueryTool",
+      "configuration": "debug",
+      "preLaunchTask": "swift: Build Debug QueryTool (fox-skill/tools/query)"
+    },
+    {
+      "type": "swift",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder:fox-skill}/fox-skill/tools/query",
+      "name": "Release QueryTool (fox-skill/tools/query)",
+      "target": "QueryTool",
+      "configuration": "release",
+      "preLaunchTask": "swift: Build Release QueryTool (fox-skill/tools/query)"
+    }
+  ]
+}
