@@ -39,7 +39,7 @@
 
 回到專案根目錄後執行:
 
-    cd /Users/zonble/Work/fox-skill
+    cd <你的專案路徑>/fox-skill
     ./link-skills.sh
 
 這個腳本會把本專案中的 Skill 目錄連結到以下位置:
